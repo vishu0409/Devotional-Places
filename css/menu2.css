@@ -1,0 +1,46 @@
+#container>ul{
+z_index:10;
+position:relative;
+left:-40px;
+   list-style:none;
+margin-left:20px;
+margin-top:0px;
+   }
+ #container ul li{
+
+z-index:10;
+margin-top:0px;
+        float:left;
+         background-color:#000080;
+          width:calc(100%/9);
+         height:50px;
+  font-size:18px;
+ text-align:center;
+   line-height:50px;
+   position: relative;
+   left: 30px;
+  }
+   #container ul li:hover{
+z_index:10;
+   background-color:black;
+   }
+   #container a{
+    display:block;
+text-decoration:none;
+color:white;
+}
+#container ul li ul li{
+z_index:10;
+width:150px;
+display:block;
+}
+#container li ul{
+z_index:10;
+ display:none;
+ }
+#container li:hover ul {
+z_index:10;
+display:block;
+}
+
+    
